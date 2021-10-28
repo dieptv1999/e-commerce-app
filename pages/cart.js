@@ -12,7 +12,7 @@ function Cart({}) {
       <div className="max-w-screen-lg w-full h-full flex flex-col pb-6">
         <MenuCustom/>
         <div className="m-4 mt-8 text-xl font-semibold self-start">My Shopping Cart</div>
-        <ButtonCustom className="w-72 flex items-center justify-center text-lg font-semibold py-3" onClick={router.push(constant.routes.CHECKOUT)}
+        <ButtonCustom className="w-72 flex items-center justify-center text-lg font-semibold py-3" onClick={() => router.push(constant.routes.CHECKOUT)}
         ><FaChevronRight className="mr-2"/>Proceed to Checkout</ButtonCustom>
       </div>
     </div>
