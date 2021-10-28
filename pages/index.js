@@ -1,23 +1,21 @@
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import Link from 'next/link'
-import { startClock } from '../actions'
-import Examples from '../components/examples'
+import MenuCustom from "../components/menu";
 
-const Index = () => {
+const Home = () => {
   const dispatch = useDispatch()
-  useEffect(() => {
-    dispatch(startClock())
-  }, [dispatch])
 
   return (
-    <>
-      <Examples />
-      <Link href="/show-redux-state">
-        <a>Click to see current Redux State</a>
-      </Link>
-    </>
+    <div className="min-h-screen flex justify-center mb-40">
+      <div className="max-w-screen-xl w-full h-full flex flex-col">
+        <MenuCustom />
+        <Link href={'/track-order'}>
+          Abc
+        </Link>
+      </div>
+    </div>
   )
 }
 
-export default Index
+export default Home
