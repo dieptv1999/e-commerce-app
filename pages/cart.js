@@ -49,7 +49,7 @@ function Cart({}) {
         <ProductItem/>
         <DividerCustom size={4}/>
         <ButtonCustom className="w-72 flex items-center justify-center text-lg font-semibold py-3 self-center"
-                      onClick={() => router.push(constant.routes.CHECKOUT)}
+          onClick={() => router.push(constant.routes.CHECKOUT)}
         ><FaChevronRight className="mr-2"/>Proceed to Checkout</ButtonCustom>
       </div>
     </div>
