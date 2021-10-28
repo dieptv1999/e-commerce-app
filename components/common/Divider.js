@@ -1,8 +1,8 @@
 import {Divider} from "antd";
 
-function DividerCustom() {
+function DividerCustom({className, size}) {
   return (
-    <Divider className="my-1"/>
+    <Divider className={`${className} ${size === 1 && 'my-1'} ${size === 2 && 'my-2'} ${size === 4 && 'my-4'}`}/>
   )
 }
 

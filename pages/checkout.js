@@ -15,7 +15,7 @@ function Checkout({}) {
   }
 
   return (
-    <div className="min-h-screen flex justify-center mb-40 m-head">
+    <div className="min-h-screen flex justify-center mb-40">
       <div className="max-w-screen-xl w-full h-full flex flex-col py-6 h-40">
         <PayPalScriptProvider
           options={{

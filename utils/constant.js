@@ -7,10 +7,11 @@ export const BASE_URL = 'http://192.168.2.6:8786';
 
 export default {
   routes: {
-    TRACK_ORDER: 'track-order',
-    CONTACT_US: 'contact-us',
-    CART: 'cart',
-    CHECKOUT: 'checkout',
-    LOCKED: 'locked'
+    TRACK_ORDER: '/track-order',
+    CONTACT_US: '/contact-us',
+    CART: '/cart',
+    CHECKOUT: '/checkout',
+    LOCKED: '/locked',
+    PRODUCT: '/product'
   }
 }

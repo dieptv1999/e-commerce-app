@@ -29,6 +29,7 @@ module.exports = {
         "navy-blue": "rgb(32, 129, 226)",
         "regal-blue": "rgb(24, 104, 183)",
         "card-gray": "rgb(112, 122, 131)",
+        "primary": "#1BC5BD"
       },
       backgroundColor: {
         "navy-blue": "rgb(32, 129, 226)",
@@ -36,10 +37,12 @@ module.exports = {
         "neutral-3": "#f5f5f5",
         "white-1": "rgba(0,0,0,0.1)",
         "white-3": "rgba(0,0,0,0.3)",
-        "black-pearl": "rgb(11, 14, 17)"
+        "black-pearl": "rgb(11, 14, 17)",
+        "light": "#1BC5BD",
       },
       borderColor: {
-        "navy-blue": "rgb(32, 129, 226)"
+        "navy-blue": "rgb(32, 129, 226)",
+        "primary": "#1BC5BD"
       },
       boxShadow: {
         "custom": "rgb(0 0 0 / 10%) 0px 0px 15px"

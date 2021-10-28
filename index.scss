@@ -36,6 +36,7 @@
         .nav-link {
           display: block;
           padding-left: 0;
+          padding-right: 0.3em;
           color: #9da6af;
           transition: 0.3s !important;
           font-size: 16px;
@@ -48,6 +49,7 @@
         .nav-link:hover {
           color: #ffffff;
           padding-left: 0.3rem;
+          padding-right: 0em;
         }
 
         .btn-social {
@@ -215,6 +217,7 @@
 
     background-color: rgb(255, 255, 255) !important;
     border: 1px solid rgb(229, 232, 235) !important;
+    border-radius: 6px !important;
     height: 40px;
   }
 
@@ -277,4 +280,29 @@
 
 .m-head {
   margin-top: 70px;
+}
+
+
+.name-product {
+  display: block;
+  padding-left: 0;
+  transition: 0.3s !important;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 0;
+  padding-bottom: 0.4rem;
+}
+
+.name-product:hover {
+  padding-left: 0.3rem;
+}
+
+.ant-modal-content {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+.ant-modal-footer {
+  border-radius: 12px !important;
+  overflow: hidden !important;
 }
